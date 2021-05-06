@@ -1,0 +1,10 @@
+[package]
+name = "dump_llvm_blockmap"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+byteorder = "1.4.3"
+leb128 = "0.2.4"
+memmap2 = "0.2.2"
+object = "0.24.0"
